@@ -2042,7 +2042,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End All contact Info Css */
 /*--------------------------------------------------*/
 .footer_area {
-  background: url("../images/footer.jpg") no-repeat;
+  background: url("../images/footer-allteam.jpg") no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -2650,6 +2650,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     padding-top: 95px;
   }
 
+  a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden; }
+
   .slider_area .slider_inner .camera_caption div h3 {
     font-size: 23px;
   }
@@ -2681,7 +2687,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner {
   color: white;
   text-align: center;
-  height: 70vh;
+  height: calc(80vh);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -2693,7 +2699,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 text-transform: uppercase;
 color: #fff;
 font: 400 30px "Roboto", sans-serif;
-padding-top: 27px;
+padding-top: 15px;
 }
 
 .banner h5 {
@@ -2702,12 +2708,12 @@ color: #f6b60b;
 font: 400 24px "Roboto", sans-serif;
 }
 .banner p {
-padding-top: 60px;
+padding-top: 15px;
 color: #fff;
 font: 400 14px/26px "Roboto", sans-serif;
 max-width: 750px;
 margin: 0 auto;
-padding-bottom: 90px;
+padding-bottom: 30px;
 }
 
 .banner a {
@@ -2745,3 +2751,5 @@ padding: 0;
 }
 .banner div a:hover:before, .banner div a:focus:before {
   transform: scaleY(1);
+
+
