@@ -2674,3 +2674,74 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
+
+/*# LE WAGON */
+
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h3 {
+text-transform: uppercase;
+color: #fff;
+font: 400 30px "Roboto", sans-serif;
+padding-top: 27px;
+}
+
+.banner h5 {
+text-transform: uppercase;
+color: #f6b60b;
+font: 400 24px "Roboto", sans-serif;
+}
+.banner p {
+padding-top: 60px;
+color: #fff;
+font: 400 14px/26px "Roboto", sans-serif;
+max-width: 750px;
+margin: 0 auto;
+padding-bottom: 90px;
+}
+
+.banner a {
+font: 700 18px/59px "Roboto", sans-serif;
+width: 180px;
+text-align: center;
+background: #f6b60b;
+display: block;
+text-shadow: none;
+margin: 0 auto;
+outline: none !important;
+box-shadow: none;
+border: 0;
+color: #222222;
+position: relative;
+z-index: 2;
+padding: 0;
+}
+
+.banner div a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: 50%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.banner div a:hover:before, .banner div a:focus:before {
+  transform: scaleY(1);
