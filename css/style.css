@@ -2682,7 +2682,28 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*# sourceMappingURL=style.css.map */
 
 /*# LE WAGON */
-
+.banner-lewagon {
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-lewagon h1 {
+  color: #fff;
+  font: 400 40px "Oswald", sans-serif;
+  text-transform: uppercase;
+  padding-top: 85px;
+}
+.banner-lewagon p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
 
 .banner {
   color: white;
